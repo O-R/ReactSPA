@@ -1,0 +1,8 @@
+c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPADal.deps.json
+c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPADal.dll
+c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPADal.pdb
+c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPAModel.dll
+c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPAModel.pdb
+c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.AssemblyInfo.cs
+c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.dll
+c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.pdb
