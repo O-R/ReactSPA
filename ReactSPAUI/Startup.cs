@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using ReactSPACore.Data;
 
 namespace ReactSPAUI
 {
@@ -30,6 +31,7 @@ namespace ReactSPAUI
         {
             // Add framework services.
             services.AddMvc();
+            services.AddScoped<IDapper,DbBase>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

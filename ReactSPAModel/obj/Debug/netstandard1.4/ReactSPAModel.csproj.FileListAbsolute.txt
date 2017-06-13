@@ -4,3 +4,9 @@ c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPAModel\bin\Debug\netstandard1.4\Re
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.AssemblyInfo.cs
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.dll
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.pdb
+f:\git\ReactSPA\ReactSPAModel\bin\Debug\netstandard1.4\ReactSPAModel.deps.json
+f:\git\ReactSPA\ReactSPAModel\bin\Debug\netstandard1.4\ReactSPAModel.dll
+f:\git\ReactSPA\ReactSPAModel\bin\Debug\netstandard1.4\ReactSPAModel.pdb
+f:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.AssemblyInfo.cs
+f:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.dll
+f:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.pdb

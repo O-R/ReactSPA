@@ -2,18 +2,19 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Dapper;
 
-namespace ReactSPADal.Core
+namespace ReactSPACore.Data
 {
-    public class SqlHelper
+    public class DbBase : IDapper
     {
-        private ISqlHelper _sqlhelper;
-        public SqlHelper(ISqlHelper sqlhelper)
+        public IDapper Dapper { get; }
+        public DbBase(IDapper dapper)
         {
-            this._sqlhelper = sqlhelper;
+            this.Dapper = dapper;
+
         }
-        public SqlHelper()
+        public DbBase()
         {
-            this._sqlhelper = new SqliteDapper();
+            this.Dapper = new SqliteDapper();
         }
 
         /// <summary>
@@ -26,7 +27,7 @@ namespace ReactSPADal.Core
         /// <returns>int</returns>
         public int ExcuteNonQuery(string connection, string cmd, DynamicParameters param, bool flag = false)
         {
-            return _sqlhelper.ExcuteNonQuery(connection, cmd, param, flag);
+            return Dapper.ExcuteNonQuery(connection, cmd, param, flag);
         }
 
         /// <summary>
@@ -39,7 +40,7 @@ namespace ReactSPADal.Core
         /// <returns>int</returns>
         public Task<int> ExcuteNonQueryAsync(string connection, string cmd, DynamicParameters param, bool flag = false)
         {
-            return _sqlhelper.ExcuteNonQueryAsync(connection, cmd, param, flag);
+            return Dapper.ExcuteNonQueryAsync(connection, cmd, param, flag);
         }
 
         /// <summary>
@@ -52,7 +53,7 @@ namespace ReactSPADal.Core
         /// <returns>T</returns>
         public T ExecuteScalar<T>(string connection, string cmd, DynamicParameters param, bool flag = false)
         {
-            return _sqlhelper.ExecuteScalar<T>(connection, cmd, param, flag);
+            return Dapper.ExecuteScalar<T>(connection, cmd, param, flag);
         }
         /// <summary>
         /// 同步查询一条数据
@@ -65,7 +66,7 @@ namespace ReactSPADal.Core
         /// <returns>t</returns>
         public T GetOne<T>(string connection, string cmd, DynamicParameters param, bool flag = false) where T : class, new()
         {
-            return _sqlhelper.GetOne<T>(connection, cmd, param, flag);
+            return Dapper.GetOne<T>(connection, cmd, param, flag);
         }
 
         /// <summary>
@@ -79,7 +80,7 @@ namespace ReactSPADal.Core
         /// <returns>t</returns>
         public Task<T> GetOneAsync<T>(string connection, string cmd, DynamicParameters param, bool flag = false) where T : class, new()
         {
-            return _sqlhelper.GetOneAsync<T>(connection, cmd, param, flag);
+            return Dapper.GetOneAsync<T>(connection, cmd, param, flag);
         }
 
         /// <summary>
@@ -93,7 +94,7 @@ namespace ReactSPADal.Core
         /// <returns>t</returns>
         public IList<T> GetList<T>(string connection, string cmd, DynamicParameters param, bool flag = false) where T : class, new()
         {
-            return _sqlhelper.GetList<T>(connection, cmd, param, flag);
+            return Dapper.GetList<T>(connection, cmd, param, flag);
         }
 
         /// <summary>
@@ -107,7 +108,7 @@ namespace ReactSPADal.Core
         /// <returns>t</returns>
         public IList<T> GetListAsPage<T>(string connection, string cmd, DynamicParameters param, bool flag = false) where T : class, new()
         {
-            return _sqlhelper.GetListAsPage<T>(connection, cmd, param, flag);
+            return Dapper.GetListAsPage<T>(connection, cmd, param, flag);
         }
 
         /// <summary>
@@ -121,7 +122,7 @@ namespace ReactSPADal.Core
         /// <returns>t</returns>
         public Task<IList<T>> GetListAsync<T>(string connection, string cmd, DynamicParameters param, bool flag = false) where T : class, new()
         {
-            return _sqlhelper.GetListAsync<T>(connection, cmd, param, flag);
+            return Dapper.GetListAsync<T>(connection, cmd, param, flag);
         }
 
         /// <summary>
@@ -135,7 +136,7 @@ namespace ReactSPADal.Core
         /// <returns>t</returns>
         public IList<T> GetListByPage<T>(string connection, string cmd, DynamicParameters param, bool flag = false) where T : class, new()
         {
-            return _sqlhelper.GetListByPage<T>(connection, cmd, param, flag);
+            return Dapper.GetListByPage<T>(connection, cmd, param, flag);
         }
 
         /// <summary>
@@ -149,7 +150,7 @@ namespace ReactSPADal.Core
         /// <returns>t</returns>
         public Task<IList<T>> GetListByPageAsync<T>(string connection, string cmd, DynamicParameters param, bool flag = false) where T : class, new()
         {
-            return _sqlhelper.GetListByPageAsync<T>(connection, cmd, param, flag);
+            return Dapper.GetListByPageAsync<T>(connection, cmd, param, flag);
         }
     }
 }

@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ReactSPAModel\ReactSPAModel.csproj" />
     <ProjectReference Include="..\ReactSPALogic\ReactSPALogic.csproj" />
+    <ProjectReference Include="..\ReactSPACore\ReactSPACore.csproj" />
   </ItemGroup>
   <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">
     <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->

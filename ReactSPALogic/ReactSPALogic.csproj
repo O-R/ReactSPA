@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ReactSPAModel\ReactSPAModel.csproj" />
     <ProjectReference Include="..\ReactSPADal\ReactSPADal.csproj" />
+    <ProjectReference Include="..\ReactSPACore\ReactSPACore.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -9,5 +9,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ReactSPAModel\ReactSPAModel.csproj" />
+    <ProjectReference Include="..\ReactSPACore\ReactSPACore.csproj" />
   </ItemGroup>
 </Project>
