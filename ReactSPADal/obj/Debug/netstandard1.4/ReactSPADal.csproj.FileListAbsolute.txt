@@ -6,3 +6,13 @@ c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\Reac
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.AssemblyInfo.cs
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.dll
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.pdb
+d:\git\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPADal.deps.json
+d:\git\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPADal.dll
+d:\git\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPADal.pdb
+d:\git\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPACore.dll
+d:\git\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPAModel.dll
+d:\git\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPAModel.pdb
+d:\git\ReactSPA\ReactSPADal\bin\Debug\netstandard1.4\ReactSPACore.pdb
+d:\git\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.AssemblyInfo.cs
+d:\git\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.dll
+d:\git\ReactSPA\ReactSPADal\obj\Debug\netstandard1.4\ReactSPADal.pdb

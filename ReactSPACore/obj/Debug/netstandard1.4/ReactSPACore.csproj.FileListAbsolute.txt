@@ -1,2 +1,8 @@
 f:\git\ReactSPA\ReactSPACore\bin\Debug\netstandard1.4\ReactSPACore.deps.json
 f:\git\ReactSPA\ReactSPACore\obj\Debug\netstandard1.4\ReactSPACore.AssemblyInfo.cs
+d:\git\ReactSPA\ReactSPACore\bin\Debug\netstandard1.4\ReactSPACore.deps.json
+d:\git\ReactSPA\ReactSPACore\bin\Debug\netstandard1.4\ReactSPACore.dll
+d:\git\ReactSPA\ReactSPACore\bin\Debug\netstandard1.4\ReactSPACore.pdb
+d:\git\ReactSPA\ReactSPACore\obj\Debug\netstandard1.4\ReactSPACore.AssemblyInfo.cs
+d:\git\ReactSPA\ReactSPACore\obj\Debug\netstandard1.4\ReactSPACore.dll
+d:\git\ReactSPA\ReactSPACore\obj\Debug\netstandard1.4\ReactSPACore.pdb

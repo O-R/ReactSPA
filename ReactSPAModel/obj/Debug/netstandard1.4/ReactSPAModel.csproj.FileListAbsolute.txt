@@ -10,3 +10,9 @@ f:\git\ReactSPA\ReactSPAModel\bin\Debug\netstandard1.4\ReactSPAModel.pdb
 f:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.AssemblyInfo.cs
 f:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.dll
 f:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.pdb
+d:\git\ReactSPA\ReactSPAModel\bin\Debug\netstandard1.4\ReactSPAModel.deps.json
+d:\git\ReactSPA\ReactSPAModel\bin\Debug\netstandard1.4\ReactSPAModel.dll
+d:\git\ReactSPA\ReactSPAModel\bin\Debug\netstandard1.4\ReactSPAModel.pdb
+d:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.AssemblyInfo.cs
+d:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.dll
+d:\git\ReactSPA\ReactSPAModel\obj\Debug\netstandard1.4\ReactSPAModel.pdb

@@ -8,3 +8,15 @@ c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\Re
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPADal.pdb
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPALogic\obj\Debug\netstandard1.4\ReactSPALogic.dll
 c:\Users\hzh\Documents\GitHub\ReactSPA\ReactSPALogic\obj\Debug\netstandard1.4\ReactSPALogic.pdb
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPALogic.deps.json
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPALogic.dll
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPALogic.pdb
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPACore.dll
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPADal.dll
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPAModel.dll
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPAModel.pdb
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPADal.pdb
+d:\git\ReactSPA\ReactSPALogic\bin\Debug\netstandard1.4\ReactSPACore.pdb
+d:\git\ReactSPA\ReactSPALogic\obj\Debug\netstandard1.4\ReactSPALogic.AssemblyInfo.cs
+d:\git\ReactSPA\ReactSPALogic\obj\Debug\netstandard1.4\ReactSPALogic.dll
+d:\git\ReactSPA\ReactSPALogic\obj\Debug\netstandard1.4\ReactSPALogic.pdb

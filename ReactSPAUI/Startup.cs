@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using ReactSPACore.Data;
+using ReactSPACore.Service;
 
 namespace ReactSPAUI
 {
@@ -31,7 +32,9 @@ namespace ReactSPAUI
         {
             // Add framework services.
             services.AddMvc();
-            services.AddScoped<IDapper,DbBase>();
+            services.AddScoped<IDapper, SqliteDapper>();
+
+            ServiceProvider.Services = services;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,7 +46,8 @@ namespace ReactSPAUI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions {
+                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
+                {
                     HotModuleReplacement = true,
                     ReactHotModuleReplacement = true
                 });

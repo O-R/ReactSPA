@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Dapper;
+using ReactSPACore.Service;
 
 namespace ReactSPACore.Data
 {
@@ -14,7 +15,7 @@ namespace ReactSPACore.Data
         }
         public DbBase()
         {
-            this.Dapper = new SqliteDapper();
+            this.Dapper = ServiceProvider.GetService<IDapper>();
         }
 
         /// <summary>
